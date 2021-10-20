@@ -19,6 +19,6 @@ To use simulations from specfem3d_globe for noise correlations:
 - concatenate the specfem output, and parse it using extract_specfem_gf.sh
 - convert the binary format to hdf5 using bin_to_h5_v.py
 
-If all these steps worked well, then plotting the wavefield with python -c 'from noisi import WaveField; wf = WaveField("SSB/SSB..MXZ.h5"); wf.plot_snapshot(500)' should look similar to the example plot in the example folder. :)
+If all these steps worked well, then plotting the wavefield with python -c 'from noisi import WaveField; wf = WaveField("SSB/SSB..MXZ.h5"); wf.plot_snapshot(180)' should look similar to the example plot in the example folder. :)
 
 Doesn't work? Feel free to submit an issue or otherwise contact me.
